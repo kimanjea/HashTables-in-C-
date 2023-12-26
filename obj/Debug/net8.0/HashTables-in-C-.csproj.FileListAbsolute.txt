@@ -1,0 +1,14 @@
+C:\Users\13608\Documents\GitHub\HashTables-in-C-\bin\Debug\net8.0\HashTables-in-C-.exe
+C:\Users\13608\Documents\GitHub\HashTables-in-C-\bin\Debug\net8.0\HashTables-in-C-.deps.json
+C:\Users\13608\Documents\GitHub\HashTables-in-C-\bin\Debug\net8.0\HashTables-in-C-.runtimeconfig.json
+C:\Users\13608\Documents\GitHub\HashTables-in-C-\bin\Debug\net8.0\HashTables-in-C-.dll
+C:\Users\13608\Documents\GitHub\HashTables-in-C-\bin\Debug\net8.0\HashTables-in-C-.pdb
+C:\Users\13608\Documents\GitHub\HashTables-in-C-\obj\Debug\net8.0\HashTables-in-C-.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\13608\Documents\GitHub\HashTables-in-C-\obj\Debug\net8.0\HashTables-in-C-.AssemblyInfoInputs.cache
+C:\Users\13608\Documents\GitHub\HashTables-in-C-\obj\Debug\net8.0\HashTables-in-C-.AssemblyInfo.cs
+C:\Users\13608\Documents\GitHub\HashTables-in-C-\obj\Debug\net8.0\HashTables-in-C-.csproj.CoreCompileInputs.cache
+C:\Users\13608\Documents\GitHub\HashTables-in-C-\obj\Debug\net8.0\HashTables-in-C-.dll
+C:\Users\13608\Documents\GitHub\HashTables-in-C-\obj\Debug\net8.0\refint\HashTables-in-C-.dll
+C:\Users\13608\Documents\GitHub\HashTables-in-C-\obj\Debug\net8.0\HashTables-in-C-.pdb
+C:\Users\13608\Documents\GitHub\HashTables-in-C-\obj\Debug\net8.0\HashTables-in-C-.genruntimeconfig.cache
+C:\Users\13608\Documents\GitHub\HashTables-in-C-\obj\Debug\net8.0\ref\HashTables-in-C-.dll
