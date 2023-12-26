@@ -10,17 +10,17 @@ namespace hashes {
 
         // we initialize a hashtable name student that we will use as our dictionary to store names  
             Hashingtable StudentList = new Hashingtable("list");
-            StudentList.Insert("azhar"); // we use the Insert function to add items to our hashtable
-            StudentList.Insert("Ruth");
-            StudentList.Insert("Tai");
-            StudentList.Insert("najibs");
-            StudentList.Insert("najib");
-            StudentList.Insert("Azhar");
-            StudentList.Insert(")=");
-            StudentList.Insert("letsd go");
-            StudentList.Insert("Jerrohe hrfieir");
-            StudentList.Insert("h");
-            StudentList.Insert("Kimanje!st");
+            StudentList.Insert("azhar", 36081978); // we use the Insert function to add items to our hashtable
+            StudentList.Insert("Ruth", 469943);
+            StudentList.Insert("Tai", 737347);
+            StudentList.Insert("najibs", 83849);
+            StudentList.Insert("najib", 7938443);
+            StudentList.Insert("Azhar", 483035);
+            StudentList.Insert(")=",7359348);
+            StudentList.Insert("letsd go", 73430);
+            StudentList.Insert("Jerrohe hrfieir",034938);
+            StudentList.Insert("h",8384309);
+            StudentList.Insert("Kimanje!st", 7349739);
             
             Console.WriteLine();Console.WriteLine();Console.WriteLine();
 
@@ -64,7 +64,7 @@ namespace hashes {
             return hashCode;
            }
 
-           public bool Insert(string name){ // Takes in a name to be added in the dictionary
+           public bool Insert(string name , int phonenumber){ // Takes in a name to be added in the dictionary
            //we use this function to insert values into our hashingtable 
 
                 int hashtableIndex= hashingfunction(name); //first we get our index using the hashfunction
@@ -73,12 +73,12 @@ namespace hashes {
 
                 if(people[hashtableIndex]==null){ // check for emptiness of index
                      people[hashtableIndex]=newObject; //assign the index with our object
-                      people[hashtableIndex].InsertAtTop(name); // we insert name into our object
+                      people[hashtableIndex].InsertAtTop(name, phonenumber); // we insert name into our object
                      return true; //we return true after success
 
                 }  else if (people[hashtableIndex]!=null) { //if not empty
                     //people[hashtableIndex]=newObject;
-                     people[hashtableIndex].InsertAtTop(name); // we automatically add to the top of our linklist object at that index
+                     people[hashtableIndex].InsertAtTop(name, phonenumber); // we automatically add to the top of our linklist object at that index
                     return true; //we return true for success
 
                 } else {

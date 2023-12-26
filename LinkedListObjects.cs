@@ -4,11 +4,10 @@ namespace HashTables_in_C_;
 class Node {
         public string? data { get; set; } // this is how we get out values 
         public Node? Next {get; set;} // this is how we are able to use the reference property
-
-        public string? playerdescription {get; set;} // add all these to function
-        public int? playerposition {get; set;} // add all these to functions
-        public void Display(){ // we use this to print the data in our nodes
+        public int? phonenumber {get; set;} // add all these to functions
+        public void Display(){ //we use this to print the data in our nodes
             Console.WriteLine(data);
+            Console.WriteLine(phonenumber);
         }
 
     }
@@ -16,10 +15,11 @@ class LinkedListOps{ // carries out linkedlist operations
 
         public Node? head; //we use this to access the head of the list
 
-        public void InsertAtTop(string data){ // inserting from the top
+        public void InsertAtTop(string data, int number){ // inserting from the top
             Node? current = head; //we use current so that we dont update the head
             Node newNode = new Node(); //we cretae a new node to hold host our new data
             newNode.data=data; 
+            newNode.phonenumber=number;
 
             if(current!=null) {
                 newNode.Next = head;// this means that new node references head, then head can be assigned to new node
@@ -126,6 +126,7 @@ class LinkedListOps{ // carries out linkedlist operations
                     current = current?.Next;
                 }
                 Console.Write(current.data);
+                Console.WriteLine(current.phonenumber);
             } else {
                 Console.WriteLine($"{name} is not in the linkedlist in hashtable");
             }
