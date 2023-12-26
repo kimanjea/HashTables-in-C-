@@ -125,12 +125,11 @@ class LinkedListOps{ // carries out linkedlist operations
                 while(current?.data!= name){
                     current = current?.Next;
                 }
-                Console.Write(current.data);
+                Console.WriteLine(current.data);
                 Console.WriteLine(current.phonenumber);
             } else {
                 Console.WriteLine($"{name} is not in the linkedlist in hashtable");
-            }
-            
+            }            
         }
         
         public void PrintLinkedList(){// we use this method to print out our new list whenever we perform on it

@@ -69,7 +69,6 @@ namespace hashes {
 
                 int hashtableIndex= hashingfunction(name); //first we get our index using the hashfunction
                 LinkedListOps newObject = new LinkedListOps(); // we create a new linked list object to use to place in our array
-                    
 
                 if(people[hashtableIndex]==null){ // check for emptiness of index
                      people[hashtableIndex]=newObject; //assign the index with our object
