@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Drawing;
 using System.Net.Http.Headers;
 using System.Reflection.Metadata;
 using System.Threading.Tasks.Dataflow;
@@ -9,7 +10,7 @@ namespace hashes {
         static void Main(string [] args) { //hashtables are great for Constant time complexity key value look ups in large data sets
 
         // we initialize a hashtable name student that we will use as our dictionary to store names  
-            Hashingtable StudentList = new Hashingtable("list");
+            Hashingtable StudentList = new Hashingtable(10);
             StudentList.Insert("azhar", 36081978); // we use the Insert function to add items to our hashtable
             StudentList.Insert("Ruth", 469943);
             StudentList.Insert("Tai", 737347);
@@ -53,10 +54,11 @@ namespace hashes {
 
 
         class Hashingtable{ // we define our class hashingtable
-           public LinkedListOps [] people = new LinkedListOps[10]; // we make an array that holds linkedlist objects
-           public string? Name {get; set;} // we use this to get the name of our linkedlist
-           public Hashingtable(string name){ // we set up a contructor but that is not necessary in this context, I did it just for formality
-                Name= name;     
+           public LinkedListOps [] people; // we make an array that holds linkedlist objects
+           public Hashingtable(int size){ // we set up a contructor that takes in size of our array of linkedlists
+            
+            people = new LinkedListOps[size]; 
+          
            }
 
            public int hashingfunction(string name){ // a good hashfunction is vital and it helps with creating indexes that fit our array size and returns an index for insertion

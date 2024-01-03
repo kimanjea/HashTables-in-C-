@@ -12,3 +12,4 @@ C:\Users\13608\Documents\GitHub\HashTables-in-C-\obj\Debug\net8.0\refint\HashTab
 C:\Users\13608\Documents\GitHub\HashTables-in-C-\obj\Debug\net8.0\HashTables-in-C-.pdb
 C:\Users\13608\Documents\GitHub\HashTables-in-C-\obj\Debug\net8.0\HashTables-in-C-.genruntimeconfig.cache
 C:\Users\13608\Documents\GitHub\HashTables-in-C-\obj\Debug\net8.0\ref\HashTables-in-C-.dll
+C:\Users\13608\Documents\GitHub\HashTables-in-C-\obj\Debug\net8.0\HashTables-in-C-.sourcelink.json
